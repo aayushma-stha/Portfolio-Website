@@ -1,0 +1,147 @@
+body
+{
+    color: white;
+    background-color: #263333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header
+{
+    background-color: #355C5B;
+    color: white;
+    height: 30px;
+}
+
+#selected-nav
+{
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px;
+    padding-bottom: 0px;
+}
+
+nav ul li
+{
+    list-style: none;
+    display:inline-block;
+    margin-left: 50px;
+    height:30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+nav ul li a:hover
+{
+    color: #11DBD9;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+nav a 
+{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+} 
+
+#hello-section article img {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #11dbd9;
+}
+
+main {
+	margin: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+}
+
+.hello-section-item 
+{
+    display: inline-block;
+    margin-left:20px;
+}
+
+.about-me-preview-item 
+{
+    display:inline-block;
+    width:45%;
+    padding:10px;
+}
+
+#skills-preview li 
+{
+    display:inline-block;
+    width: 24%;
+}
+
+#skills-preview img 
+{
+    height:50px;
+    width:50px;
+}
+
+footer
+{
+    background-color: #355C5B;
+    color: white;
+    height: 30px;
+    text-align:  center;
+}
+
+.button 
+{
+    font-size: small;
+    display:inline-block;
+    margin-right:20px;
+    border-style: solid;
+    border-color: #11dbd9;
+    padding: 6px;
+    border-radius: 5px;
+    background-color:#263333;
+    color: white;   
+}
+
+.button:hover {
+   color:#355C5B;
+    background-color: #11dbd9;
+}
+
+#name {
+    color: #11dbd9;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#greeting {
+    font-size:30px;
+    margin-bottom: 5px;
+}
+
+#profession {
+    font-size:20px;
+    margin-top: 10px;
+}
+
+h2
+{
+    color:#11DBD9;
+}
+
+h3
+{
+    color:#2CB1AF
+}
+
+.intro
+{
+    background-color: #355C5B;
+    padding: 5px;
+    border-radius: 10px;  
+}

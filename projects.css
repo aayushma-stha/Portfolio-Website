@@ -1,0 +1,123 @@
+header
+{
+    background-color: #355C5B;
+    color: white;
+    height: 30px;
+}
+
+#selected-nav
+{
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px;
+    padding-bottom: 0px;
+}
+
+header ul li
+{
+    list-style: none;
+    display:inline-block;
+    margin-left: 50px;
+    height:30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+nav ul li a:hover
+{
+    color: #11DBD9;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+nav a 
+{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+body
+{
+    color: white;
+    background-color: #263333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+	margin: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+}
+
+footer
+{
+    background-color: #355C5B;
+    color: white;
+    height: 30px;
+    text-align:  center;
+}
+
+.button 
+{
+    font-size: small;
+    display:inline-block;
+    margin-right:20px;
+    border-style: solid;
+    border-color: #11dbd9;
+    padding: 6px;
+    border-radius: 5px;
+    background-color:#263333;
+    color: white;   
+    text-decoration: none;
+}
+
+.button:hover {
+   color:#355C5B;
+    background-color: #11dbd9;
+}
+
+h1
+{
+    color: #11DBD9;
+    text-align: center;
+}
+h2
+{
+    color: #2CB1AF;    
+}
+
+/*  */
+
+.center {
+    text-align: center;
+}
+
+.project {
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    margin:20px;
+}
+
+
+.thumbnail img  {
+    display:inline-block;
+    height: 200px;
+    border-right-style: solid;
+}
+
+#main-section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.project-detail  {
+    margin-left:20px;
+}
+

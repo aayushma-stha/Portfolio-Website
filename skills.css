@@ -1,0 +1,115 @@
+header
+{
+    background-color: #355C5B;
+    color: white;
+    height: 30px;
+}
+
+#selected-nav
+{
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px;
+    padding-bottom: 0px;
+}
+
+header ul li
+{
+    list-style: none;
+    display:inline-block;
+    margin-left: 50px;
+    height:30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+nav ul li a:hover
+{
+    color: #11DBD9;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+nav a 
+{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+body
+{
+    color: white;
+    background-color: #263333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+	margin: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+}
+
+.skills-list li 
+{
+    display:inline-grid;
+    align-items: center;
+    width: 20%;
+
+}
+
+#technical-skills img 
+{
+    height:40px;
+    width:40px;
+}
+
+#technical-skills li
+{
+    display:block;
+    width:300px;
+}
+
+#technical-skills article
+{
+    display:inline-block;
+    width: 48%;
+    background-color: #355C5B;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+img 
+{
+    height:100px;
+    width:100px;
+    background-color: #355C5B;
+    padding: 5px;
+    border-radius: 10px; 
+}
+
+h1
+{
+    color: #11DBD9;
+    text-align: center;
+}
+h2
+{
+    color: #2CB1AF;    
+}
+
+footer
+{
+    background-color: #355C5B;
+    color: white;
+    height: 30px;
+    text-align:  center;
+}
+
+.skills-list li p {
+    display:inline;
+    margin-left: 20px;
+}
